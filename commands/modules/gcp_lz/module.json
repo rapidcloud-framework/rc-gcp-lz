@@ -1,0 +1,27 @@
+{
+  "gcp_lz": {
+    "bootstrap_landing_zone": {
+      "cloud": "gcp",
+      "enabled": false,
+      "help": "",
+      "template_section": "",
+      "template_enabled": false,
+      "metadata_table": "metadata",
+      "id": "name",
+      "args": {
+        "name": {
+          "name": "Name",
+          "prompt": "Enter Name with no spaces",
+          "required": true,
+          "default": ""
+        },
+        "root-folder-id": {
+          "name": "Root Folder ID",
+          "prompt": "Enter Name with no spaces",
+          "required": true,
+          "default": ""
+        }
+      }
+    }
+  }
+}
